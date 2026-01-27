@@ -48,6 +48,8 @@
 | **[📊 Спринт 2](Sprint-2-Process-Modeling/)** | ✅ Завершен | DFD, BPMN, Swimlane диаграммы |
 | **[🗄️ Спринт 3](Sprint-3-Data-Architecture/)** | ✅ Завершен | ER-диаграммы, словарь данных |
 | **[📝 Спринт 4](Sprint-4-User-Requirements/)** | ✅ Завершен | User Stories, Use Cases, критерии приемки |
+| **[⚙️ Спринт 5](Sprint-5-Functional-Specification/)** |  ✅ Завершен | Статусные модели, детализация CRUD-операций |
+
 
 ### 🔥 Активный спринт
 

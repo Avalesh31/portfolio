@@ -1,6 +1,13 @@
 
 ## 🗂️ Структура проекта
 
+Каждый спринт оформлен как отдельный аналитический блок с набором артефактов в папке `artifacts/`.  
+Имена файлов унифицированы по схеме `S<номер_спринта>_<объект>_<суть>.<ext>` (например, `S2_DFD_Level0.jpg`).
+
+## ✅ Статус спринтов
+
+Спринты **1–8** завершены и подготовлены как витринный кейс для публикации в GitHub.  
+Исходные учебные проекты в `SA_projects/BSAxx` используются только как источник артефактов и в публичный кейс не входят.
 
 
 ## 🏢 О проекте
@@ -42,15 +49,16 @@
 
 ### 📁 Логика спринтов
 
-| Спринт | Статус | Фокус | 📈 Ключевые результаты |
-|--------|--------|--------|------------------------|
-| **[🎯 Спринт 1](Sprint-1-Stakeholders-Context/)** | ✅ Завершен | Контекст и стейкхолдеры | Карта стейкхолдеров, каталог, As-Is / To-Be, глоссарий |
-| **[📊 Спринт 2](Sprint-2-Process-Modeling/)** | ✅ Завершен | Бизнес‑процессы | DFD, BPMN, Swimlane, диаграммы состояний и таблицы |
-| **[🗄️ Спринт 3](Sprint-3-Data-Architecture/)** | ✅ Завершен | Архитектура данных и ролей | ER‑диаграммы, словарь данных, CRUD‑матрица, диаграмма классов |
-| **[📝 Спринт 4](Sprint-4-User-Requirements/)** | ✅ Завершен | Пользовательские и функциональные требования | User Stories, Use Cases, функциональные требования, критерии приемки, прототипы интерфейсов |
-| **[⚙️ Спринт 5](Sprint-5-Functional-Specification/)** | ✅ Завершен | Функциональные спецификации | Статусные модели, детализация CRUD‑операций, бизнес‑правила, матрица ролей и прав |
+| Спринт | Статус | Фокус | 📈 Примеры артефактов |
+|--------|--------|--------|----------------------|
+| **[🎯 Спринт 1](Sprint-1-Stakeholders-Context/)** | ✅ Завершен | Контекст и стейкхолдеры | `S1_Stakeholders_Catalog.xlsx`, `S1_AsIs_Analysis.docx`, `S1_ToBe_Vision.docx`, `S1_Context_Data_Streams.xlsx` |
+| **[📊 Спринт 2](Sprint-2-Process-Modeling/)** | ✅ Завершен | Бизнес‑процессы | `S2_DFD_Level0.jpg`, `S2_Swimlane_Diagram.jpg`, `S2_State_Diagram.jpg`, BPMN‑диаграммы (`S2_BPMN_*.png`) |
+| **[🗄️ Спринт 3](Sprint-3-Data_Architecture/)** | ✅ Завершен | Архитектура данных и ролей | `S3_Entities_Analysis.xlsx`, `S3_Data_Dictionary.xlsx`, `S3_CRUD_Matrix.xlsx`, `S3_ER_Diagram.jpg`, `S3_Class_Diagram.jpg` |
+| **[📝 Спринт 4](Sprint-4-User-Requirements/)** | ✅ Завершен | Пользовательские и функциональные требования | User Stories (`S4_US_*.docx`), Use Cases (`S4_UC_*.docx`), пользовательские потоки (`S4_User_Flow_*.docx`), UI‑артефакты и вайрфреймы (`S4_UI_*`, `S4_Wireframes_*`) |
+| **[⚙️ Спринт 5](Sprint-5-Functional-Specification/)** | ✅ Завершен | Функциональные спецификации | Статусные модели (`S5_Status_Objects.xlsx`, `S5_Status_Model.mmd`), диаграмма состояний слота (`S5_ServiceSlot_State_Diagram.png`), CRUD‑матрица (`S5_CRUD_Extended.xlsx`), матрица прав доступа (`S5_Access_Matrix.docx`) |
 | **[🔒 Спринт 6](Sprint-6-Nonfunctional-Requirements/)** | ✅ Завершен | Нефункциональные требования | Каталог НФТ, атрибуты производительности, доступности, масштабируемости, безопасности |
-| **[📌 Спринт 7](Sprint-7-Requirements-Management/)** | ✅ Завершен | Управление требованиями | Каталог требований, приоритизация, планирование релизов, правила управления изменениями и трассируемость |
+| **[📌 Спринт 7](Sprint-7-Requirements-Management/)** | ✅ Завершен | Управление требованиями | Каталог требований (`S7_Requirements_Registry.xlsx`), приоритизация (`S7_Requirements_Prioritization.xlsx`), план релизов (`S7_Release_Planning.xlsx`), трассируемость (`S7_Traceability_Matrix.xlsx`), доска Weeek (`S7_Weeek_Board_Screenshot.pdf`) |
+| **[🔗 Спринт 8](Sprint-8-System-Integration/)** | ✅ Завершен (учебный модуль) | Интеграция систем | Потоки данных и мастер‑системы (`S8_Data_Flows.xls`, `S8_Master_Systems.xls`, `S8_Target_Systems.xls`), словарь данных (`S8_Data_Dictionary.xls`), сценарии интеграции и параметры обмена (`S8_Integration_Scenarios.xls`, `S8_Volumes_And_Frequency.xls`, `S8_Schedule_And_SLA.xls`) |
 
 ---
 

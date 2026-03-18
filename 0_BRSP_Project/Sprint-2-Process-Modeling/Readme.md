@@ -22,3 +22,14 @@
 - **Диаграммы состояний** - жизненные циклы ключевых объектов системы
 - **BPMN 2.0 диаграммы** - детальное описание бизнес-процессов с основными и альтернативными потоками
 
+> Примечание по BSA06 (BPMN): проект выполнялся в команде. В портфолио размещены **только BPMN-процессы, выполненные лично мной**, без артефактов, сделанных коллегами.
+
+## 📁 Артефакты
+- DFD (Level 0): [`S2_DFD_Level0.jpg`](./artifacts/S2_DFD_Level0.jpg)
+- Swimlane diagram: [`S2_Swimlane_Diagram.jpg`](./artifacts/S2_Swimlane_Diagram.jpg)
+- State diagram: [`S2_State_Diagram.jpg`](./artifacts/S2_State_Diagram.jpg)
+- BPMN (my part):
+  - [`S2_BPMN_Client_Registration.png`](./artifacts/S2_BPMN_Client_Registration.png)
+  - [`S2_BPMN_Schedule_Update.png`](./artifacts/S2_BPMN_Schedule_Update.png)
+  - [`S2_BPMN_Service_Update.png`](./artifacts/S2_BPMN_Service_Update.png)
+

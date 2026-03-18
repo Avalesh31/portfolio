@@ -26,7 +26,25 @@
  
 ## 📁 Артефакты
 
-- Описания User Stories (`artifacts/*user_story*.doc`)
-- Описания Use Cases (`artifacts/*use_case*.doc`)
-- Документы с функциональными требованиями (`artifacts/*functional*.doc` / `.docx`)
-- Материалы по пользовательским интерфейсам (`artifacts/*ui*.*`)
+- User Stories:
+  - [`S4_US_Manager_Schedule.docx`](./artifacts/S4_US_Manager_Schedule.docx)
+  - [`S4_US_Master_Schedule.docx`](./artifacts/S4_US_Master_Schedule.docx)
+  - [`S4_US_Registered_Client.docx`](./artifacts/S4_US_Registered_Client.docx)
+- Use Cases:
+  - [`S4_UC_Schedule_Management.docx`](./artifacts/S4_UC_Schedule_Management.docx)
+  - [`S4_UC_Slot_Booking.docx`](./artifacts/S4_UC_Slot_Booking.docx)
+  - [`S4_UC_Master_Schedule.docx`](./artifacts/S4_UC_Master_Schedule.docx)
+- UI / UX:
+  - [`S4_UI_Product_Presentation.xlsx`](./artifacts/S4_UI_Product_Presentation.xlsx)
+  - [`S4_UI_Directories_Screens.xlsx`](./artifacts/S4_UI_Directories_Screens.xlsx)
+  - [`S4_UI_Directories_Fields.xlsx`](./artifacts/S4_UI_Directories_Fields.xlsx)
+  - [`S4_UI_Screens_Register.xlsx`](./artifacts/S4_UI_Screens_Register.xlsx)
+  - Wireframes:
+    - [`S4_Wireframes_Client.pdf`](./artifacts/S4_Wireframes_Client.pdf), [`S4_Wireframes_Client_Spec.xlsx`](./artifacts/S4_Wireframes_Client_Spec.xlsx)
+    - [`S4_Wireframes_Manager.pdf`](./artifacts/S4_Wireframes_Manager.pdf), [`S4_Wireframes_Manager_Spec.xlsx`](./artifacts/S4_Wireframes_Manager_Spec.xlsx)
+    - [`S4_Wireframes_Master.pdf`](./artifacts/S4_Wireframes_Master.pdf), [`S4_Wireframes_Master_Spec.xlsx`](./artifacts/S4_Wireframes_Master_Spec.xlsx)
+  - User flows:
+    - [`S4_User_Flow_Client.docx`](./artifacts/S4_User_Flow_Client.docx)
+    - [`S4_User_Flow_Manager.docx`](./artifacts/S4_User_Flow_Manager.docx)
+    - [`S4_User_Flow_Master.docx`](./artifacts/S4_User_Flow_Master.docx)
+  - Controls & validation: [`S4_UI_Controls_Validation.xlsx`](./artifacts/S4_UI_Controls_Validation.xlsx)

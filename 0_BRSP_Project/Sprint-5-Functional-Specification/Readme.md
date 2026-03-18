@@ -22,6 +22,16 @@
 
 ## 📁 Артефакты
 
-- Таблица статусов объектов (`artifacts/Status_Objects.xlsx`)
-- Диаграмма состояний слота обслуживания (`artifacts/ServiceSlot_State_Diagramm.png`)
-- Статусная модель в формате mermaid (`artifacts/status.mmd`)
+- Статусные модели:
+  - Таблица статусов объектов: [`S5_Status_Objects.xlsx`](./artifacts/S5_Status_Objects.xlsx)
+  - Текстовое описание статусов (слот, клиент и др.): [`S5_Status_Models_OtherEntities.docx`](./artifacts/S5_Status_Models_OtherEntities.docx)
+  - Статусная модель в формате mermaid: [`S5_Status_Model.mmd`](./artifacts/S5_Status_Model.mmd)
+- Объект «Слот обслуживания»:
+  - Описание состояний и переходов: [`S5_ServiceSlot_Status_Description.docx`](./artifacts/S5_ServiceSlot_Status_Description.docx)
+  - Диаграмма состояний: [`S5_ServiceSlot_State_Diagram.png`](./artifacts/S5_ServiceSlot_State_Diagram.png)
+  - Действия CRUD над слотом: [`S5_ServiceSlot_CRUD.docx`](./artifacts/S5_ServiceSlot_CRUD.docx)
+- CRUD и права доступа:
+  - Расширенная CRUD‑матрица по объектам: [`S5_CRUD_Extended.xlsx`](./artifacts/S5_CRUD_Extended.xlsx)
+  - Матрица прав доступа ролей к объектам: [`S5_Access_Matrix.docx`](./artifacts/S5_Access_Matrix.docx)
+- Справочный документ:
+  - Функциональный словарь/описание требований: [`S5_Functional_Dictionary.docx`](./artifacts/S5_Functional_Dictionary.docx)

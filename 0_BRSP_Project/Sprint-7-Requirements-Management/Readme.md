@@ -22,5 +22,15 @@
  - **Планирование релизов по спринтам/неделям**
  - **Трассируемость** требований к стейкхолдерам, процессам и артефактам
 
- Подробные артефакты см. в папке [`artifacts`](./artifacts/).
+> Проект выполнялся в команде с использованием SaaS‑сервиса управления задачами и требованиями **Weeek**.  
+> В портфолио вынесены агрегированные таблицы и скриншот доски Weeek, отражающие итоговое состояние требований.
+
+## 📁 Артефакты
+
+- Типы и атрибуты требований: [`S7_Requirements_Types_Attributes.xlsx`](./artifacts/S7_Requirements_Types_Attributes.xlsx)
+- Каталог требований: [`S7_Requirements_Registry.xlsx`](./artifacts/S7_Requirements_Registry.xlsx)
+- Приоритизация требований: [`S7_Requirements_Prioritization.xlsx`](./artifacts/S7_Requirements_Prioritization.xlsx)
+- Планирование релизов/спринтов: [`S7_Release_Planning.xlsx`](./artifacts/S7_Release_Planning.xlsx)
+- Трассируемость требований: [`S7_Traceability_Matrix.xlsx`](./artifacts/S7_Traceability_Matrix.xlsx)
+- Скриншот доски Weeek с требованиями: [`S7_Weeek_Board_Screenshot.pdf`](./artifacts/S7_Weeek_Board_Screenshot.pdf)
 

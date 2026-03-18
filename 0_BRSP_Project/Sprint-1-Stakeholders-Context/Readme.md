@@ -20,3 +20,10 @@
 - **To-Be видение** с конкретными улучшениями для каждой проблемы
 - **Описание потоков данных** между всеми ключевыми стейкхолдерами
 
+## 📁 Артефакты
+- Stakeholders catalog: [`S1_Stakeholders_Catalog.xlsx`](./artifacts/S1_Stakeholders_Catalog.xlsx)
+- Stakeholders needs/problems: [`S1_Stakeholders_Needs_Problems.xlsx`](./artifacts/S1_Stakeholders_Needs_Problems.xlsx)
+- As-Is analysis: [`S1_AsIs_Analysis.docx`](./artifacts/S1_AsIs_Analysis.docx)
+- To-Be vision: [`S1_ToBe_Vision.docx`](./artifacts/S1_ToBe_Vision.docx)
+- Data streams (context): [`S1_Context_Data_Streams.xlsx`](./artifacts/S1_Context_Data_Streams.xlsx)
+

@@ -1,0 +1,11 @@
+# Local study sources (not part of public portfolio)
+SA_projects/
+
+# Service / helper mapping files
+TEMP_SA_projects_artifacts_map.md
+SA_projects_portfolio_coverage_report.md
+BRSP_worklog.md
+
+# Windows alternate data streams metadata
+*:*Zone.Identifier
+

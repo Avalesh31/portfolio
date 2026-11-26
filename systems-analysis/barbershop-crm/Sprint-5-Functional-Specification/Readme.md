@@ -1,37 +1,19 @@
-# Спринт 5: Проектирование функциональных требований
+# Спринт 5. Функциональные спецификации
 
- 
-**Статус:** ✅ Завершен  
-**Цель:** Описать функциональные требования к системе в виде статусных моделей, операций CRUD и матрицы прав доступа, подготовив спецификации для команды разработки.
+Описал жизненный цикл слота записи, разрешённые действия с объектами и права ролей. Состояния слота представлены диаграммой и текстовым описанием.
 
-## 📊 Состав спринта
-- **BSA03:** Описание сущностей 
-- **BSA09:** Построение диаграммы классов
-- **BSA10:** Формализация функциональных требований к объектам системы
+**Модули School 21:** BSA10.
 
-## 🔗 Бизнес-ценность
-*Описание операций над данными и статусов объектов позволяет разработчикам понимать, как именно пользователи системы будут выполнять свои функции и какие ограничения должны соблюдаться в каждом состоянии.*
+[Планирование](Sprint_Planning.md) · [Обзор и ретроспектива](Sprint_Review_Retrospective.md) · [К списку спринтов](../README.md)
 
-## 🎯 Ключевые результаты
-- **Статусная модель сущностей** с обоснованием необходимости отслеживания жизненного цикла
-- **Описание состояний объекта «слот обслуживания»**
-- **Статусная модель объекта «клиент»**
-- **Описание действий над объектами** с применением операций CRUD (в том числе для слотов обслуживания)
-- **Диаграмма статусов объекта «слот обслуживания»**
-- **Таблица прав доступа ролей к объектам системы**
+## Артефакты
 
-## 📁 Артефакты
-
-- Статусные модели:
-  - Таблица статусов объектов: [`S5_Status_Objects.xlsx`](./artifacts/S5_Status_Objects.xlsx)
-  - Текстовое описание статусов (слот, клиент и др.): [`S5_Status_Models_OtherEntities.docx`](./artifacts/S5_Status_Models_OtherEntities.docx)
-  - Статусная модель в формате mermaid: [`S5_Status_Model.mmd`](./artifacts/S5_Status_Model.mmd)
-- Объект «Слот обслуживания»:
-  - Описание состояний и переходов: [`S5_ServiceSlot_Status_Description.docx`](./artifacts/S5_ServiceSlot_Status_Description.docx)
-  - Диаграмма состояний: [`S5_ServiceSlot_State_Diagram.png`](./artifacts/S5_ServiceSlot_State_Diagram.png)
-  - Действия CRUD над слотом: [`S5_ServiceSlot_CRUD.docx`](./artifacts/S5_ServiceSlot_CRUD.docx)
-- CRUD и права доступа:
-  - Расширенная CRUD‑матрица по объектам: [`S5_CRUD_Extended.xlsx`](./artifacts/S5_CRUD_Extended.xlsx)
-  - Матрица прав доступа ролей к объектам: [`S5_Access_Matrix.docx`](./artifacts/S5_Access_Matrix.docx)
-- Справочный документ:
-  - Функциональный словарь/описание требований: [`S5_Functional_Dictionary.docx`](./artifacts/S5_Functional_Dictionary.docx)
+- [`S5_Access_Matrix.docx`](artifacts/S5_Access_Matrix.docx)
+- [`S5_CRUD_Extended.xlsx`](artifacts/S5_CRUD_Extended.xlsx)
+- [`S5_Functional_Dictionary.docx`](artifacts/S5_Functional_Dictionary.docx)
+- [`S5_ServiceSlot_CRUD.docx`](artifacts/S5_ServiceSlot_CRUD.docx)
+- [`S5_ServiceSlot_State_Diagram.png`](artifacts/S5_ServiceSlot_State_Diagram.png)
+- [`S5_ServiceSlot_Status_Description.docx`](artifacts/S5_ServiceSlot_Status_Description.docx)
+- [`S5_Status_Model.mmd`](artifacts/S5_Status_Model.mmd)
+- [`S5_Status_Models_OtherEntities.docx`](artifacts/S5_Status_Models_OtherEntities.docx)
+- [`S5_Status_Objects.xlsx`](artifacts/S5_Status_Objects.xlsx)

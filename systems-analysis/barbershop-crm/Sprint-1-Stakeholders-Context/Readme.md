@@ -1,29 +1,34 @@
-# Спринт 1: Анализ стейкхолдеров и контекста системы
+# Спринт 1. Стейкхолдеры и контекст
 
- 
-**Статус:** ✅ Завершен  
-**Цель:** Выявить ключевых стейкхолдеров системы, понять их потребности и сформулировать видение улучшений через анализ текущего и целевого состояния.
+Описал заинтересованные стороны, их потребности, текущие и целевые процессы, а также обмен данными с окружением системы.
 
-## 🎯 Логика группировки
-*Объединены проекты BSA01 (стейкхолдеры, интересы, проблемы) и BSA02 (as-is/to-be анализ, потоки данных) как фундаментальные этапы анализа контекста системы.*
+**Модули School 21:** BSA01, BSA02, BSA03.
 
-## 📊 Состав спринта
-- **BSA01:** Анализ стейкхолдеров, их интересов, потребностей и проблем
-- **BSA02:** Описание текущего состояния (as-is), целевого состояния (to-be) и потоков данных
+BSA03 охватывает два способа выявления требований на примере доставки: интервью в формате ролевой игры и мозговой штурм. В доступной копии BSA03 сохранились указатели Git LFS; оригиналы двух документов пока недоступны.
 
-## 🔗 Бизнес-ценность
-*Определение, для кого мы строим систему и какие проблемы решаем - фундамент для всех последующих решений. Без этого этапа невозможно эффективное проектирование процессов и данных.*
+[Планирование](Sprint_Planning.md) · [Обзор и ретроспектива](Sprint_Review_Retrospective.md) · [К списку спринтов](../README.md)
 
-## 🎯 Ключевые результаты
-- **Карта стейкхолдеров** с анализом влияния и интересов всех групп стейкхолддеров групп
-- **As-Is анализ** с выявлением ключевых проблемных зон
-- **To-Be видение** с конкретными улучшениями для каждой проблемы
-- **Описание потоков данных** между всеми ключевыми стейкхолдерами
+## Артефакты
 
-## 📁 Артефакты
-- Stakeholders catalog: [`S1_Stakeholders_Catalog.xlsx`](./artifacts/S1_Stakeholders_Catalog.xlsx)
-- Stakeholders needs/problems: [`S1_Stakeholders_Needs_Problems.xlsx`](./artifacts/S1_Stakeholders_Needs_Problems.xlsx)
-- As-Is analysis: [`S1_AsIs_Analysis.docx`](./artifacts/S1_AsIs_Analysis.docx)
-- To-Be vision: [`S1_ToBe_Vision.docx`](./artifacts/S1_ToBe_Vision.docx)
-- Data streams (context): [`S1_Context_Data_Streams.xlsx`](./artifacts/S1_Context_Data_Streams.xlsx)
+### Основные материалы
 
+- [`S1_AsIs_Analysis.docx`](artifacts/S1_AsIs_Analysis.docx)
+- [`S1_BRSP_Requirements_Glossary.xlsx`](artifacts/S1_BRSP_Requirements_Glossary.xlsx)
+- [`S1_BRSP_Stakeholder_Glossary.xlsx`](artifacts/S1_BRSP_Stakeholder_Glossary.xlsx)
+- [`S1_Context_Data_Streams.xlsx`](artifacts/S1_Context_Data_Streams.xlsx)
+- [`S1_Stakeholders_Catalog.xlsx`](artifacts/S1_Stakeholders_Catalog.xlsx)
+- [`S1_Stakeholders_Needs_Problems.xlsx`](artifacts/S1_Stakeholders_Needs_Problems.xlsx)
+- [`S1_ToBe_Vision.docx`](artifacts/S1_ToBe_Vision.docx)
+
+### Кейс службы доставки
+
+- [`S1_DLVR_AsIs_Analysis.docx`](artifacts/delivery-case/S1_DLVR_AsIs_Analysis.docx)
+- [`S1_DLVR_Context_Data_Streams.xlsx`](artifacts/delivery-case/S1_DLVR_Context_Data_Streams.xlsx)
+- [`S1_DLVR_Context_Diagram.png`](artifacts/delivery-case/S1_DLVR_Context_Diagram.png)
+- [`S1_DLVR_Requirements_Glossary.xlsx`](artifacts/delivery-case/S1_DLVR_Requirements_Glossary.xlsx)
+- [`S1_DLVR_Requirements_Stakeholders.xlsx`](artifacts/delivery-case/S1_DLVR_Requirements_Stakeholders.xlsx)
+- [`S1_DLVR_Stakeholder_Glossary.xlsx`](artifacts/delivery-case/S1_DLVR_Stakeholder_Glossary.xlsx)
+- [`S1_DLVR_Stakeholder_Needs.xlsx`](artifacts/delivery-case/S1_DLVR_Stakeholder_Needs.xlsx)
+- [`S1_DLVR_Stakeholder_Onion.png`](artifacts/delivery-case/S1_DLVR_Stakeholder_Onion.png)
+- [`S1_DLVR_Stakeholders_Catalog.xlsx`](artifacts/delivery-case/S1_DLVR_Stakeholders_Catalog.xlsx)
+- [`S1_DLVR_ToBe_Vision.docx`](artifacts/delivery-case/S1_DLVR_ToBe_Vision.docx)

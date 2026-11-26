@@ -1,35 +1,30 @@
-# Спринт 2: Моделирование бизнес-процессов
- 
-**Статус:** ✅ Завершен  
-**Цель:** Детализировать ключевые бизнес-процессы системы через различные нотации моделирования для создания единого видения работы системы.
+# Спринт 2. Моделирование процессов
 
-## 🎯 Логика группировки
-*Объединены проекты BSA05 (DFD, Swimlane, диаграммы состояний) и BSA06 (BPMN процессы) как взаимодополняющие подходы к процессному моделированию, обеспечивающие полное покрытие всех аспектов работы системы.*
+Описал потоки данных, действия участников и изменения состояния объектов. Для CRM показал процессы регистрации клиента, обновления расписания и обновления услуг в BPMN.
 
-## 📊 Состав спринта
-- **BSA05:** Data Flow Diagrams (DFD), Swimlane диаграммы, диаграммы состояний
-- **BSA06:** BPMN 2.0 диаграммы процессов первого уровня, анализ входов/выходов, владельцев процессов
+**Модули School 21:** BSA05, BSA06.
 
-## 🔗 Бизнес-ценность
-*Переход от понимания "что нужно" к проектированию "как это будет работать". Создание единого видения процессов для разработчиков, тестировщиков и бизнес-пользователей, что исключает разночтения на этапе реализации.*
+BSA06 выполнялся в команде. В подборке — три BPMN-диаграммы, которые я сделал лично.
 
-## 🔗 Связь со спринтом 1
-*На основе анализа стейкхолдеров и требований из [Спринта 1](../Sprint-1-Stakeholders-Context/) перешли к детальному моделированию процессов, которые удовлетворяют выявленные потребности.*
+[Планирование](Sprint_Planning.md) · [Обзор и ретроспектива](Sprint_Review_Retrospective.md) · [К списку спринтов](../README.md)
 
-## 🎯 Ключевые результаты
-- **DFD диаграммы** (уровни 0-2) - архитектура потоков данных между компонентами системы
-- **Swimlane диаграммы** - четкое распределение ответственности между ролями
-- **Диаграммы состояний** - жизненные циклы ключевых объектов системы
-- **BPMN 2.0 диаграммы** - детальное описание бизнес-процессов с основными и альтернативными потоками
+## Артефакты
 
-> Примечание по BSA06 (BPMN): проект выполнялся в команде. В портфолио размещены **только BPMN-процессы, выполненные лично мной**, без артефактов, сделанных коллегами.
+### Основные материалы
 
-## 📁 Артефакты
-- DFD (Level 0): [`S2_DFD_Level0.jpg`](./artifacts/S2_DFD_Level0.jpg)
-- Swimlane diagram: [`S2_Swimlane_Diagram.jpg`](./artifacts/S2_Swimlane_Diagram.jpg)
-- State diagram: [`S2_State_Diagram.jpg`](./artifacts/S2_State_Diagram.jpg)
-- BPMN (my part):
-  - [`S2_BPMN_Client_Registration.png`](./artifacts/S2_BPMN_Client_Registration.png)
-  - [`S2_BPMN_Schedule_Update.png`](./artifacts/S2_BPMN_Schedule_Update.png)
-  - [`S2_BPMN_Service_Update.png`](./artifacts/S2_BPMN_Service_Update.png)
+- [`S2_BPMN_Client_Registration.png`](artifacts/S2_BPMN_Client_Registration.png)
+- [`S2_BPMN_Schedule_Update.png`](artifacts/S2_BPMN_Schedule_Update.png)
+- [`S2_BPMN_Service_Update.png`](artifacts/S2_BPMN_Service_Update.png)
+- [`S2_BRSP_State_Transitions.xlsx`](artifacts/S2_BRSP_State_Transitions.xlsx)
+- [`S2_BRSP_Swimlane_Extended.jpg`](artifacts/S2_BRSP_Swimlane_Extended.jpg)
+- [`S2_DFD_Level0.jpg`](artifacts/S2_DFD_Level0.jpg)
+- [`S2_State_Diagram.jpg`](artifacts/S2_State_Diagram.jpg)
+- [`S2_Swimlane_Diagram.jpg`](artifacts/S2_Swimlane_Diagram.jpg)
 
+### Кейс службы доставки
+
+- [`S2_DLVR_DFD_Level0.jpg`](artifacts/delivery-case/S2_DLVR_DFD_Level0.jpg)
+- [`S2_DLVR_State_Diagram.jpg`](artifacts/delivery-case/S2_DLVR_State_Diagram.jpg)
+- [`S2_DLVR_State_Transitions.xlsx`](artifacts/delivery-case/S2_DLVR_State_Transitions.xlsx)
+- [`S2_DLVR_Swimlane_Extended.jpg`](artifacts/delivery-case/S2_DLVR_Swimlane_Extended.jpg)
+- [`S2_DLVR_Swimlane.jpg`](artifacts/delivery-case/S2_DLVR_Swimlane.jpg)
